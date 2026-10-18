@@ -9,8 +9,8 @@ async function driverOpenCard(context: BrowserContext): Promise<Page> {
   // Inject Cookie เพื่อให้จำลองสถานะ Login เรียบร้อย
   await context.addCookies([
     {
-      name: 'session-username',
-      value: 'standard_user',
+      name: 'Anantaya Aunjai',
+      value: '6804101396',
       domain: 'www.saucedemo.com',
       path: '/',
     },
